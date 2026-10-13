@@ -45,19 +45,7 @@ namespace Library
         public string Address
         {
             get { return address; }
-
-            set
-            {
-                // Ensure name does not contain any numbers
-                if (!value.Any(char.IsDigit) && value != "")
-                {
-                    address = value;
-                }
-                else
-                {
-                    Console.WriteLine("Error: Member address cannot be blank or contain numbers.");
-                }
-            }
+            set { address = value; }
         }
 
         public int Phone
