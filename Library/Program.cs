@@ -1,5 +1,8 @@
 using Library;
 
+List<Book> books = new List<Book>();
+List<Member> members = new List<Member>();
+
 Book book = new Book();
 // This information is for one book in our library
 book.Title = "C# for beginners";
